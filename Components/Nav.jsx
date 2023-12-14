@@ -15,7 +15,7 @@ function Nav() {
         <Heading as={"h1"}>Suzan Codes</Heading>
         <Spacer />
         <HStack spacing="10px">
-          <Box p={"10px"} bg="gray.200">
+          <Box px={"10px"} py={"3px"} bg="gray.200" borderRadius={"100%"}>
             S
           </Box>
           <Text>sujansince2059@gmail.com</Text>
