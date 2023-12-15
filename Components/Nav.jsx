@@ -11,7 +11,7 @@ import {
 function Nav() {
   return (
     <>
-      <Flex as={"nav"} p={"10px"} alignItems="center">
+      <Flex as={"nav"} p={"10px"} mb="40px" alignItems="center">
         <Heading as={"h1"}>Suzan Codes</Heading>
         <Spacer />
         <HStack spacing="10px">
