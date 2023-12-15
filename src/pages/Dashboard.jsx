@@ -1,5 +1,5 @@
 import { Heading, Text, Container, Box, SimpleGrid } from "@chakra-ui/react";
-export default function Dashboard() {
+export default function Dashboard({ data }) {
   // const styleBox = {
   //   p: "20px",
   //   bg: "yellow.500",
@@ -12,6 +12,7 @@ export default function Dashboard() {
   //     backgroundColor: "pink.300",
   //   },
   // };
+  // console.log(data.tasks.at(0));
   return (
     <>
       <SimpleGrid spacing={10} p={"10px"} minChildWidth={"250px"}>
