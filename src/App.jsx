@@ -9,7 +9,7 @@ import {
 // layouts and pages
 import RootLayout from "./layouts/RootLayout";
 import Dashboard from "./pages/Dashboard";
-import Create from "./pages/Create";
+import Create, { createAction } from "./pages/Create";
 import Profile from "./pages/Profile";
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Dashboard data={data} />} />
-        <Route path="create" element={<Create />} />
+        <Route path="create" element={<Create />} action={createAction} />
         <Route path="profile" element={<Profile />} />
       </Route>
     )
